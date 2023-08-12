@@ -19,6 +19,8 @@ class MainActivity : AppCompatActivity() {
             textChange.text = timesClicked.toString()
             Toast.makeText(this, "checked", Toast.LENGTH_LONG).show()
 
+            print("Ok!")
+
         }
 
     }
